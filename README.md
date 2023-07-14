@@ -4,6 +4,16 @@
 ## Description
 I have created two responsive pages for mobile and desktop as designed in Figma design. Codes created with a mobile-first approach. API operations were simulated on localhost:5000 port. POST and GET operations done. 
 
+## What I used
+
+* React
+* Css
+* json (for backend)
+* cypress
+* axios
+* svg (for images)
+
+
 ## Project Skeleton
 
 ```
