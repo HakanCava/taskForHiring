@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# Hiring Task
+* I should create this page 👇
+![Alt text](Task.png)
+## Description
+I have created two responsive pages for mobile and desktop as designed in Figma design. Codes created with a mobile-first approach. API operations were simulated on localhost:5000 port. POST and GET operations done. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Skeleton
 
-## Available Scripts
+```
 
-In the project directory, you can run:
 
-### `yarn start`
+├── backend
+│     └── api
+│          └── data.json
+├── cypress
+│    ├── downloads  
+│    ├── e2e
+│    │     ├── addList.cy.js
+│    │     └── mobil.cy.js
+│    ├── fixture
+│    │     └── example.json
+│    └── support
+│    │     ├── commands.js
+│    │     └── e2e.js
+├── public
+│     └── index.html
+├── src
+│    ├── components
+│    │     ├── announcements
+│    │     |        ├── model
+│    │     |        |    ├── addList.css
+│    │     |        |    └── AddList.jsx
+│    │     |        ├── announcements.css
+│    │     |        ├── Announcements.jsx
+│    │     |        ├── court.css
+│    │     |        └── Court.jsx
+│    │     ├── mobil
+│    │     |        ├── button
+│    │     |        |    ├── button.css
+│    │     |        |    └── Button.jsx
+│    │     |        ├── court
+│    │     |        |    ├── court.css
+│    │     |        |    └── Court.jsx
+│    │     |        ├── navbar
+│    │     |        |    ├── navbar.css
+│    │     |        |    └── Navbar.jsx
+│    │     |        ├── waitingList
+│    │     |        |    ├── table.css
+│    │     |        |    ├── Table.jsx
+│    │     |        |    ├── waitingList.css
+│    │     |        |    └── WaitingList.jsx
+│    │     |        ├── mobileSection.css
+│    │     |        └── MobileSection.jsx
+│    │     └── waitingList
+│    │             ├── table.css
+│    │             ├── Table.jsx
+│    │             ├── waitingList.css
+│    │             └── WaitingList.jsx
+│    ├── pages
+│    │     └── Home.jsx
+│    ├── styles
+│    │     ├── global.css
+│    │     └── home.css
+│    ├── App.js
+│    └── index.js
+├── package.json
+├── cypress.config.js
+├── .gitignore
+└── yarn.lock
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to run your local?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+__To run this project in your own locale, follow the steps below.__
 
-### `yarn test`
+1. Clone the project to your local by typing the following command in the terminal.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- git clone ...
 
-### `yarn build`
+2. Then install the node_modules and files in the package.json by typing __*yarn*__ command in the terminal.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Run the project at localhost:3000 with __*yarn start*__ command.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Type the following command in terminal for backend:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### npx json-server --watch backend/api/data.json --port 5000
+- With this command, the backend server will run on the port http://localhost:5000/waiting-list.
 
-### `yarn eject`
+- I can dynamically perform GET and POST operations in our project.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Gif
+- This is gif 👇😊
+![Alt text](hiringtask.gif)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**<p align="center">&#9786; Happy Coding &#9997;</p>**

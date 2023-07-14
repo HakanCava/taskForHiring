@@ -1,0 +1,98 @@
+{
+  "waiting-list": [
+    {
+      "id": 1,
+      "gameType": "./img/rackets.svg",
+      "gameRating": "3.5",
+      "players": [
+        "Lynn Tanner",
+        "Sledge Hammer",
+        "Roderick Flich",
+        "Willie Tanner"
+      ],
+      "waitingTime": "19"
+    },
+    {
+      "id": 2,
+      "gameType": "./img/rackets.svg",
+      "gameRating": "3.5",
+      "players": [
+        "Angus MacGyver",
+        "Michael Knight",
+        "Hannibal Smith",
+        "Fred Decker"
+      ],
+      "waitingTime": "19"
+    },
+    {
+      "id": 3,
+      "gameType": "./img/rackets.svg",
+      "gameRating": "./img/hand-shake.svg",
+      "players": [
+        "Thomas Magnum",
+        "Tony Danza",
+        "Roderick Decker",
+        "Hakan Cava"
+      ],
+      "waitingTime": "21"
+    },
+    {
+      "id": 4,
+      "gameType": "./img/rackets.svg",
+      "gameRating": "3.5",
+      "players": [
+        "Cristian Tanner",
+        "Capt. Trunk",
+        "B.A. Baracus",
+        "Dori Doreau"
+      ],
+      "waitingTime": "26"
+    },
+    {
+      "id": 5,
+      "gameType": "./img/rackets.svg",
+      "gameRating": "./img/hand-shake.svg",
+      "players": [
+        "Lynn Tanner",
+        "Sledge Hammer",
+        "Roderick Flich",
+        "Willie Tanner"
+      ],
+      "waitingTime": "19"
+    },
+    {
+      "id": 6,
+      "gameType": "./img/rackets.svg",
+      "gameRating": "./img/hand-shake.svg",
+      "players": [
+        "Angus MacGyver",
+        "Michael Knight",
+        "Hannibal Smith",
+        "Fred Decker"
+      ],
+      "waitingTime": "19"
+    },
+    {
+      "id": 7,
+      "gameType": "./img/rackets.svg",
+      "gameRating": "./img/hand-shake.svg",
+      "players": [
+        "Thomas Magnum",
+        "Tony Danza",
+        "Roderick Decker",
+        "Hakan Cava"
+      ],
+      "waitingTime": "21"
+    },
+    {
+      "id": 8,
+      "gameType": "./img/racket.svg",
+      "gameRating": "./img/hand-shake.svg",
+      "players": [
+        "Cristian Tanner",
+        "Capt. Trunk"
+      ],
+      "waitingTime": "26"
+    }
+  ]
+}

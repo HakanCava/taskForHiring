@@ -1,0 +1,52 @@
+.mobil-waitingList {
+  max-width: 750px;
+  margin: auto;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 30px;
+    
+    .left {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .right {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+
+
+  .mobil-tableContainer{
+    border: 2px solid var(--secondary-color);
+    margin: 10px;
+    border-radius: 15px;
+    position: relative;
+    padding: 10px 0;
+    > p{
+      background-color: white;
+      position: absolute;
+      left: 20px;
+      bottom: -10px;
+      text-decoration: underline;
+      color: var(--secondary-color);
+      padding: 0 5px;
+      font-weight: 500;
+    }
+    > img{
+      background-color: white;
+      position: absolute;
+      right: 20px;
+      bottom: -10px;
+      padding: 0 5px;
+    }
+
+  }
+  
+}
+

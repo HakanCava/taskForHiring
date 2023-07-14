@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  max-width: 750px;
+  /* width: 360px; */
+  height: 63px;
+  background: var(--primary-color);
+  border-radius: 0 0 15px 15px;
+  margin: auto;
+  /* .logo {
+  } */
+  .input {
+    position: relative;
+    width: 294px;
+    height: 32px;
+    margin: 0px 20px;
+    > input {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      padding: 5px;
+    }
+    > img {
+      position: absolute;
+      right: 10px;
+      top: 40%;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.mobile-section{
+    max-width: 750px;
+    margin: 0 auto;
+    
+}
+
+@media screen and (min-width: 850px) {
+.mobile-section{
+    display: none;
+}
+}

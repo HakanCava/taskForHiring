@@ -1,0 +1,54 @@
+.mobil-table {
+  width: 100%;
+  border-collapse: collapse;
+  .mobil-thead {
+    .mobil-thead-tr {
+      .mobil-th-1,
+      .mobil-th-2 {
+        max-width: 50px;
+        text-align: center;
+      }
+
+      .mobil-th-3 {
+        max-width: 100px;
+        /* border: 1px solid black; */
+        text-align: start;
+        padding-left: 20px;
+      }
+      .mobil-th-4 {
+        max-width: 80px;
+        /* border: 1px solid black; */
+      }
+    }
+  }
+  .mobil-tbody {
+    /* border: 1px solid red; */
+    height: 208px;
+    width: 100%;
+
+    .mobil-tbody-tr {
+      border-top: 1px solid #9a9a9a;
+      .mobil-td-1,
+      .mobil-td-2,
+      .mobil-td-4 {
+        text-align: center;
+      }
+      .mobil-td-3 {
+        .mobil-playersContainer {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          padding: 5px;
+          .players {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            > p{
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

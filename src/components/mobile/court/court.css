@@ -1,0 +1,22 @@
+.mobil-court-container{
+    /* width: 360px; */
+    max-width: 750px;
+    /* height: 286px; */
+    background-color:#F8F8F8 ;
+    margin:20px auto;
+    position: relative;
+    padding: 40px;
+    border-radius: 15px;
+    > img{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .sm-courts{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+}

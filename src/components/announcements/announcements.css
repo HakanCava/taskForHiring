@@ -1,0 +1,102 @@
+.announcements {
+  width: 850px;
+  margin: auto;
+  padding: 10px;
+  .container {
+    position: relative;
+    .compass {
+      position: absolute;
+      width: 52px;
+      height: 56px;
+      top: 0px;
+      right: 0px;
+    }
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+
+      .topInfo {
+        width: 784px;
+        height: 252px;
+
+        > h2 {
+          text-align: center;
+          font-size: 24px;
+          font-weight: 500;
+        }
+        > article {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          /* width: 784px; */
+          height: 252px;
+          border: 2px solid var(--secondary-color);
+          border-radius: 15px;
+          margin: 20px 20px;
+          .header {
+            > h2 {
+              text-align: center;
+              font-size: 24px;
+              font-weight: 700;
+            }
+          }
+
+          .date {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 10px 20px;
+          }
+          .announc-par {
+            background: var(--third-color);
+            padding: 15px 25px 15px 20px;
+            font-size: 18px;
+            margin-bottom: 10px;
+            > p {
+              font-weight: 300;
+            }
+          }
+        }
+      }
+      .courts {
+        margin: 70px 60px 70px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin-top: 70px;
+        > h2 {
+          font-weight: 500;
+          font-size: 24px;
+          margin-bottom: 20px;
+        }
+        .lg-courts {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 40px;
+          align-items: center;
+          justify-content: center;
+          padding: 10px;
+        }
+      }
+      .button {
+        width: 778px;
+        text-align: center;
+        > button {
+          width: 750px;
+          height: 60px;
+          border-radius: 4px;
+          margin: auto;
+          padding: 8px;
+          border: none;
+          cursor: pointer;
+          background: var(--primary-color);
+          font-size: 24px;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
