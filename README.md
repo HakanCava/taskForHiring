@@ -75,7 +75,7 @@ __To run this project in your own locale, follow the steps below.__
 
 1. Clone the project to your local by typing the following command in the terminal.
 
-- git clone ...
+- git clone https://github.com/HakanCava/taskForHiring.git
 
 2. Then install the node_modules and files in the package.json by typing __*yarn*__ command in the terminal.
 
