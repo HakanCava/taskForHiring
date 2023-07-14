@@ -89,7 +89,7 @@ __To run this project in your own locale, follow the steps below.__
 - I can dynamically perform GET and POST operations in our project.
 
 ## Gif
-- This is gif 👇😊
+
 ![Alt text](hiringtask.gif)
 
 **<p align="center">&#9786; Happy Coding &#9997;</p>**
